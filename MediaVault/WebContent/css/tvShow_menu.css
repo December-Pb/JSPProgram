@@ -1,0 +1,74 @@
+body {
+
+  color: gray;
+  background:#D0E9C6;
+}
+.TP {
+  max-width: 1060px;
+  margin: 10px auto;
+  margin-bottom: 1em;
+  background: #fff8dc;
+}
+.content{
+  max-width: 1060px;
+  margin: 10px auto;
+  margin-bottom: 1em;
+}
+div.div-upload{
+	 float:right;
+	 border:0; 
+}
+
+
+div.div-search{
+	 float:left;
+	 width:10%;
+	 border:0px ;
+	 padding: 0px;
+}
+.movie_name{
+	border: 0;
+	height: 50;
+	width: 1000;
+}
+
+div#search{
+	padding-left: 0px;
+	background: #122B40;
+}
+
+
+
+.MD{
+	margin: 5em 0 0 0;
+	display:block;  
+	height: auto;
+	margin-bottom: 1em;
+	display:block; 
+	writing-mode:lr;
+ 
+}
+
+
+
+.child{   
+    display:inline-block;   
+    *display:inline;   
+    padding:0 20px;   
+    width:216px;   
+    height:300px;   
+    text-align:center;   
+    writing-mode: lr; 
+} 
+.page{
+	width: 1060px;
+	height:200px;
+	padding: 100px 60px;
+	margin: 10px auto ;
+	margin-bottom: 1em;
+}
+
+
+
+
+

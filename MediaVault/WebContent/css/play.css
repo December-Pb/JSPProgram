@@ -1,0 +1,35 @@
+body {
+
+  color: gray;
+  background-image: url(../images/uploadBackground.jpg)
+}
+
+.TP {
+  max-width: 1060px;
+  margin: 10px auto;
+  margin-bottom: 1em;
+  background-image: url(../images/nav.jpg);
+}
+
+
+.movieMD{
+  	margin: 10px 220px;
+	max-width: 1060px;
+	height: 800px;
+	margin-bottom: 1em;
+ 
+}
+
+.tvMD{
+  	margin:auto;
+	width: auto;
+	height: 800px;
+	margin-bottom: 1em;
+ 
+}
+.video{
+	width:1060px ;
+	margin: 0 1000px;
+	height:800px;
+}
+

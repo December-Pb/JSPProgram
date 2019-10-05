@@ -1,0 +1,107 @@
+body {
+
+  color: gray;
+  background-image: url(../images/uploadBackground.jpg)
+}
+
+.TP {
+  max-width: 1060px;
+  margin: 10px auto;
+  margin-bottom: 1em;
+  background-image: url(../images/nav.jpg);
+}
+
+
+td {
+	border-color: #8DC9EF;
+}
+
+td:hover {
+	border: 1px solid rgb(255, 0, 0);
+}
+#sel {
+	border-radius: 8px;
+	background-color:lightgoldenrodyellow;
+}
+#sel {
+    background: url('yourimage') no-repeat;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#sel select {
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+    width: 120px;
+    height: 60%;
+}
+#submit1,#submit2,#submit3,#cancel1,#cancel2,#cancel3 {
+	width: 85px;
+	height: 30px;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	letter-spacing: 4px;
+	padding-left: 12px;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(top, #66B5E6, #2e88c0);
+	background: -moz-linear-gradient(top, #66B5E6, #2e88c0);
+	background: linear-gradient(top, #66B5E6, #2e88c0);
+	background: -ms-linear-gradient(top, #66B5E6, #2e88c0);
+	border: 1px solid #2576A8;
+	box-shadow: 0 1px 2px #B8DCF1 inset, 0 -1px 0 #316F96 inset;
+	color: #fff;
+	text-shadow: 1px 1px 0.5px #22629B;
+}
+
+#submit1,#submit2,#submit3,#cancel1,#cancel2,#cancel3:hover {
+	background: -webkit-linear-gradient(top, #8DC9EF, #4E9FD1);
+	background: -moz-linear-gradient(top, #8DC9EF, #4E9FD1);
+	background: linear-gradient(top, #8DC9EF, #4E9FD1);
+	background: -ms-linear-gradient(top, #8DC9EF, #4E9FD1);
+}
+.bottom #movieTable{
+	z-index:999;
+	position:absolute;
+	left:35%;
+	background-color:#F0F8FF;
+}
+.bottom #movieTable th{
+	width: 200px;
+}
+.bottom #tvTable{
+	z-index:999;
+	position:absolute;
+	top:15%;
+	left:35%;
+	background-color:#F0F8FF;
+}
+.bottom #tvTable th{
+	width: 200px;
+}
+.bottom #musicTable{
+	z-index:999;
+	position:absolute;
+	left:35%;
+	background-color:#F0F8FF;
+}
+.bottom #musicTable th{
+	width: 200px;
+}
+#mask{
+	background:#000;
+	opacity:0.75;
+	filter:alpha(opacity=75);
+	z-index:998;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right:0;
+}
+.top-menu #sel {
+	color:white;
+	background-color:black;
+}
+

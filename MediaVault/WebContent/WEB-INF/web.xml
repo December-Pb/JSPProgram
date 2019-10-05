@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
+  <listener>
+    <listener-class>database.InitializerDatabase</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>upload.upload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>database.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>database.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Skip</servlet-name>
+    <servlet-class>database.Skip</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Skip</servlet-name>
+    <url-pattern>/Skip</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>database.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+</web-app>

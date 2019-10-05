@@ -1,0 +1,121 @@
+
+#exit{
+	float: right;
+	padding: 0 1cm 0 0;
+}
+
+
+
+.topPart {
+  margin: 5em 0 0 0;
+}
+
+.topPart .top-menu {
+  padding: 36px 10px;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius:15px;  
+}
+
+
+.topPart #welcome {
+  font-size: 34px;
+  color:#F0F0F0;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Lucida Handwriting", "Source Sans Pro", sans-serif;
+}
+.topPart #welcome a span {
+  color: #66D37E;
+}
+.topPart a {
+  padding: 5px 10px;
+  color: white;
+}
+.topPart ul {
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+.topPart ul li {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-color:white;
+}
+.topPart ul li a {
+  position: relative;
+  font-size: 13px;
+  padding: 12px 12px;
+  color: rgba(172, 253, 255, 0.3);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.topPart ul li a:after {
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  right: 0;
+  content: '';
+  width: 60%;
+  height: 2px;
+  background: #66D37E;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
+}
+.topPart ul li a:hover {
+  color: white;
+}
+.topPart ul li a:hover:after {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.topPart ul li.active > a {
+  color: #000 !important;
+  position:relative;
+}
+.topPart ul li.active > a:after {
+  opacity:50;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.topPart ul li {
+  position: relative; 
+}
+
+
+.topPart ul li:hover > ul {
+  display: block; 
+}
+
+.topPart ul ul {
+  position: absolute;
+  left: 20px;
+  top: 100%;
+  list-style:none;
+  background: #4a4a4a;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.UL{
+	padding: 0 200px;
+	list-style: none;
+}
+.UL li{
+	float: left;
+	padding: 0px 20px 20px 20px;
+}
